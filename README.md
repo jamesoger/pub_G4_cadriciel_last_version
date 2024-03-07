@@ -1,7 +1,7 @@
-# CADRICIEL PWA
-## Comment utiliser ce cadriciel:
+# PUb G4 -site web restaurant style pub
+## Installation:
 ### 1
-- Effacez la vue `views/index.view.php`
+
 - Changez les paramètres de connexion à la BDD dans le fichier `.env`
 ### 2
 - Effacez la route présente par défaut.
