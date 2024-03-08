@@ -5,28 +5,22 @@
 -Installer Xamp
 -Transférer le projet dans le htdocs de XAMP
 -Glisser tout le dossier crée dans XAMP dans VS code
--se rendre sur le bon chemin dans le terminal (cd pub_G4_cadriciel_last_version)
--effectuer les commandes suivantes dans le terminal:
 
-```bash
-composer install
-```
-
-```bash
-
-```
 ### 2
 
-transféfer le dossier dans votre htdocs local style xamp
-Ouvrir votre serveur local et trouver le dossier relié au projet
-- Effacez la route présente par défaut.
-- Ajoutez les routes du projet dans le fichier `routes/web.php`: vous devrez associer une route à un tableau contenant le controller et la méthode
-- Ex., `"index" => ["SiteController", "index"]`
+-Se rendre sur localhost/phpmyadmin
+-créer une database, lui donner le meme nom que celui dans le dossier database
+-importer le fichier pub_G4.sql dans phmyadmin
+-créer un fichier .env à la racine du projet et entrer les informations suivantes:
+
+```bash
+HOST=localhost
+USERNAME=root
+PASSWORD=
+DBNAME=pub_g4
+```
+
 ### 3
-- Ajoutez les contrôleurs nécessaires dans le dossier `/controllers`
-- Effacez le contrôleur `DefautController`
-- Chaque controller doit appartenir au *namespace* `Controller` et hérité de `Base\Controller`
-### 4
-- Ajoutez les modèles nécessaires au projet dans le dossier `/models`.
-- Chaque modèle doit appartenir au *namespace* `Model` et hérité de `Base\Model`
-- Chaque modèle doit préciser sa table associée avec la propriété `protected $table = "nom_table";"`
+
+-se rendre sur localhost et selectionner le bon dossier , le projet est prêt!
+
