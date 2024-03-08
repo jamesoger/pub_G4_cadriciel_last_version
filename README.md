@@ -7,10 +7,12 @@
 ```bash
 cd pub_G4_cadriciel_last_version
 composer install
-transféfer le dossier dans votre htdocs local style xamp
-Ouvrir votre serveur local et trouver le dossier relié au projet
+
 ```
 ### 2
+
+transféfer le dossier dans votre htdocs local style xamp
+Ouvrir votre serveur local et trouver le dossier relié au projet
 - Effacez la route présente par défaut.
 - Ajoutez les routes du projet dans le fichier `routes/web.php`: vous devrez associer une route à un tableau contenant le controller et la méthode
 - Ex., `"index" => ["SiteController", "index"]`
