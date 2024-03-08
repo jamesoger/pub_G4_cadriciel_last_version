@@ -2,11 +2,17 @@
 ## Installation:
 ### 1
 -cloner le projet 
+-Installer Xamp
+-Transférer le projet dans le htdocs de XAMP
+-Glisser tout le dossier crée dans XAMP dans VS code
+-se rendre sur le bon chemin dans le terminal (cd pub_G4_cadriciel_last_version)
 -effectuer les commandes suivantes dans le terminal:
 
 ```bash
-cd pub_G4_cadriciel_last_version
 composer install
+```
+
+```bash
 
 ```
 ### 2
