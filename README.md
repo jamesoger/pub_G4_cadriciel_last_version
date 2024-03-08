@@ -1,8 +1,15 @@
 # PUb G4 -site web restaurant style pub
 ## Installation:
 ### 1
+-cloner le projet 
+-effectuer les commandes suivantes dans le terminal:
 
-- Changez les paramètres de connexion à la BDD dans le fichier `.env`
+```bash
+cd pub_G4_cadriciel_last_version
+composer install
+transféfer le dossier dans votre htdocs local style xamp
+Ouvrir votre serveur local et trouver le dossier relié au projet
+```
 ### 2
 - Effacez la route présente par défaut.
 - Ajoutez les routes du projet dans le fichier `routes/web.php`: vous devrez associer une route à un tableau contenant le controller et la méthode
