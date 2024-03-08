@@ -9,7 +9,7 @@
 - cloner le projet 
 - Installer Xamp
 - Transférer le projet dans le htdocs de XAMP
--nGlisser tout le dossier crée dans XAMP dans VS code
+- Glisser tout le dossier crée dans XAMP dans VS code
 
 ### 2
 
