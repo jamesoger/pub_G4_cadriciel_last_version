@@ -13,10 +13,10 @@
 
 ### 2
 
--nSe rendre sur localhost/phpmyadmin
--ncréer une database, lui donner le meme nom que celui dans le dossier database
--nimporter le fichier pub_G4.sql dans phmyadmin
--ncréer un fichier .env à la racine du projet et entrer les informations suivantes:
+- Se rendre sur localhost/phpmyadmin
+- Créer une database, lui donner le meme nom que celui dans le dossier database
+- Importer le fichier pub_G4.sql dans phmyadmin
+- Créer un fichier .env à la racine du projet et entrer les informations suivantes:
 
 ```bash
 HOST=localhost
@@ -27,5 +27,5 @@ DBNAME=pub_g4
 
 ### 3
 
--se rendre sur localhost et selectionner le bon dossier , le projet est prêt!
+- Se rendre sur localhost et selectionner le bon dossier , le projet est prêt!
 
