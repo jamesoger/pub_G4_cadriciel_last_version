@@ -1,6 +1,6 @@
 # PUb G4 -site web restaurant style pub
 
-<img src="" alt="">
+<img src="/public/img/logo.png?raw=true" alt="">
 
 ## Installation:
 
